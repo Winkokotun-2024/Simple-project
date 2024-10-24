@@ -1,0 +1,27 @@
+#gameContainer{
+    width: 300px;
+    height :200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: azure;
+}
+
+#playertext{
+    color : blue;
+
+}
+#computertext{
+    color : red;
+    
+}
+
+#resulttext{
+    color : green;
+}
+
+.Drawbtn{
+    padding :5px 5px;
+    margin: 0 5px;
+    cursor: pointer;
+
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.banner{
+    width: 100%;
+    height :100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.75)),url(p1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    width :100%;
+    margin : auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    
+}
+
+#bottom{
+    position : absolute;
+    bottom :0;
+    background-color: aqua;
+    width : 100%;
+    padding : 20px 0;
+    
+    font-size: 23px;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px yellow;
+    outline :none;
+    border: 0;
+
+}
+
+#text{
+    text-align: center;
+    width: 450px;
+    animation: myslide 9s linear 0.5s running infinite;
+
+}
+
+@keyframes myslide {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -40%;
+       
+    }
+   
+    
+}
+
+.mynum{
+    
+    position: absolute;
+    top :10%;
+    width: 600px;
+    background-color: azure;
+    padding: 30px 40px;
+    margin-left: 20px;
+
+}
+
+.mynum1{
+    position: absolute;
+    top :30%;
+    width: 600px;
+    background-color: azure;
+    padding: 30px 40px;
+    margin-left: 20px;
+}
+
+#count{
+    display: block;
+    text-align: center;
+    margin-top : -10px;
+    margin-bottom: 20px;
+    font-size: 4em;
+}
+#btnController{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#incereasebtn,#decreasebtn{
+    padding: 7px 10px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    background-color: blue;
+    color :aqua;
+    margin: 10px 20px;
+    width : 100px;
+    height:40px;
+    font-size: 16px;
+
+}
+

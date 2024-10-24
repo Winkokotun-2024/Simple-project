@@ -1,0 +1,29 @@
+#gamecontainer{
+    text-align: center;
+}
+
+#gameBoards{
+    border: 3px solid;
+
+}
+h2{
+    font-weight: 600;
+    font-size: 30px;
+    text-decoration: gray underline;
+    line-height: 30px;
+    
+}
+#scoreText{
+    font-size: 50px ;
+    
+}
+
+#resetbtn{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: beige;
+    border-color: rgb(163, 177, 177);
+}

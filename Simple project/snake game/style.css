@@ -1,0 +1,34 @@
+#gameContianer{
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+#header{
+    color: white;
+    background-color: green;
+    width: 180px;
+    height :40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+#gameBoards{
+    border: 1px solid;
+    box-shadow: 0 0 0 3px;
+}
+
+#scoretext{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#resetbtn{
+    width : 100px;
+    height :50px;
+    font-size: 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
